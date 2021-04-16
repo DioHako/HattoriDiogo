@@ -1,0 +1,996 @@
+fileFormatVersion: 2
+guid: 19db57a1ce32f6346ac39055938555df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8703389998563471379
+    second: BerserkerIdle
+  - first:
+      213: 8586955738218212781
+    second: BerserkerJump01
+  - first:
+      213: -2236246105336818984
+    second: BerserkerJump02
+  - first:
+      213: 8724604292146773053
+    second: BerserkerJump03
+  - first:
+      213: -4045168340620879636
+    second: HeadIconBerserker01
+  - first:
+      213: 4858763312478179771
+    second: HeadIconBerserker02
+  - first:
+      213: 7328459493424907241
+    second: BerserkerWalk01
+  - first:
+      213: -6216487454196433462
+    second: BerserkerWalk02
+  - first:
+      213: 7871114959849512970
+    second: BerserkerWalk03
+  - first:
+      213: 6678133418057568153
+    second: BerserkerWalk04
+  - first:
+      213: 1840108744662451320
+    second: BerserkerWalk05
+  - first:
+      213: 1209454690098126479
+    second: BerserkerWalk06
+  - first:
+      213: -4149112639611733346
+    second: BerserkerRun01
+  - first:
+      213: -4948177332803140014
+    second: BerserkerRun02
+  - first:
+      213: -1617452137966206277
+    second: BerserkerRun03
+  - first:
+      213: -5416973017596541025
+    second: BerserkerRun04
+  - first:
+      213: -8660240532862515970
+    second: BerserkerRun05
+  - first:
+      213: -2983351824151844074
+    second: BerserkerHenshin01
+  - first:
+      213: -6631556834028206885
+    second: BerserkerHenshin02
+  - first:
+      213: -966056757875852821
+    second: BerserkerHenshin03
+  - first:
+      213: -6124709487565080455
+    second: BerserkerHenshin04
+  - first:
+      213: -8658654439633794145
+    second: BerserkerClimbing01
+  - first:
+      213: 8139210358536996287
+    second: BerserkerClimbing02
+  - first:
+      213: -6988724343098899602
+    second: BerserkerClimbing03
+  - first:
+      213: -5918695930468963970
+    second: BerserkerClimbing04
+  - first:
+      213: 8165947762144005584
+    second: BerserkerClimbing05
+  - first:
+      213: -4007528435561764231
+    second: BerserkerClimbing06
+  - first:
+      213: -6834184550905043948
+    second: BerserkerDescend01
+  - first:
+      213: 1459289831719414802
+    second: BerserkerDescend02
+  - first:
+      213: 4365002988349464527
+    second: BerserkerDescend03
+  - first:
+      213: -1661538938539674159
+    second: BerserkerDescend04
+  - first:
+      213: -3690148376861327831
+    second: BerserkerDescend05
+  - first:
+      213: -7631486732636154436
+    second: BerserkerDescend06
+  - first:
+      213: -1012661320389870510
+    second: BerserkerCrouch01
+  - first:
+      213: -1586170913898888394
+    second: BerserkerCrouch02
+  - first:
+      213: 287903657925205083
+    second: BerserkerCrouch03
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BerserkerIdle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 199
+        width: 31
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31030165717a8c870800000000000000
+      internalID: 8703389998563471379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerJump01
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 201
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dadaf7e8fbefa2770800000000000000
+      internalID: 8586955738218212781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerJump02
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 201
+        width: 28
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d25c0de30247f0e0800000000000000
+      internalID: -2236246105336818984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerJump03
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 199
+        width: 31
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cb147f065041970800000000000000
+      internalID: 8724604292146773053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadIconBerserker01
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 216
+        width: 19
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8d2a093dcacd7c0800000000000000
+      internalID: -4045168340620879636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadIconBerserker02
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 216
+        width: 19
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb156f76d7bcd6340800000000000000
+      internalID: 4858763312478179771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerWalk01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 163
+        width: 27
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e34e68d41be3b560800000000000000
+      internalID: 7328459493424907241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerWalk02
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 163
+        width: 27
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdf2f5c8999ab9a0800000000000000
+      internalID: -6216487454196433462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerWalk03
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 163
+        width: 26
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00e7106a51db3d60800000000000000
+      internalID: 7871114959849512970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerWalk04
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 163
+        width: 25
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f8cf126fe7dac50800000000000000
+      internalID: 6678133418057568153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerWalk05
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 163
+        width: 27
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87402b96721698910800000000000000
+      internalID: 1840108744662451320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerWalk06
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 163
+        width: 27
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e9a37f1a8d8c010800000000000000
+      internalID: 1209454690098126479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerRun01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 39
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9afbd689046b66c0800000000000000
+      internalID: -4149112639611733346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerRun02
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 135
+        width: 39
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25601a0beea845bb0800000000000000
+      internalID: -4948177332803140014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerRun03
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 135
+        width: 40
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb20453a9d7ad89e0800000000000000
+      internalID: -1617452137966206277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerRun04
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 135
+        width: 39
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f974848adbb03d4b0800000000000000
+      internalID: -5416973017596541025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerRun05
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 135
+        width: 39
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef44a498e15a0d780800000000000000
+      internalID: -8660240532862515970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerHenshin01
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 97
+        width: 20
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b6a6982510996d0800000000000000
+      internalID: -2983351824151844074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerHenshin02
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 97
+        width: 26
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd44fe7e13af7f3a0800000000000000
+      internalID: -6631556834028206885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerHenshin03
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 97
+        width: 27
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9b1f14f70e792f0800000000000000
+      internalID: -966056757875852821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerHenshin04
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 97
+        width: 31
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978f731db29a00ba0800000000000000
+      internalID: -6124709487565080455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerClimbing01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 57
+        width: 24
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bc4c4a9a746d780800000000000000
+      internalID: -8658654439633794145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerClimbing02
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 60
+        width: 24
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb507cc92b844f070800000000000000
+      internalID: 8139210358536996287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerClimbing03
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 57
+        width: 24
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e630770ec30130f90800000000000000
+      internalID: -6988724343098899602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerClimbing04
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 57
+        width: 27
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79e8dae8619cdda0800000000000000
+      internalID: -5918695930468963970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerClimbing05
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 57
+        width: 26
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd4df08936435170800000000000000
+      internalID: 8165947762144005584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerClimbing06
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 58
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a6013ee166268c0800000000000000
+      internalID: -4007528435561764231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerDescend01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 25
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414a7d92c591821a0800000000000000
+      internalID: -6834184550905043948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerDescend02
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 21
+        width: 25
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ca9fbce50704410800000000000000
+      internalID: 1459289831719414802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerDescend03
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 19
+        width: 23
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf9614571b939c30800000000000000
+      internalID: 4365002988349464527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerDescend04
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 22
+        width: 24
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5fcdb732701f8e0800000000000000
+      internalID: -1661538938539674159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerDescend05
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 22
+        width: 25
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e32bc3a95f9ccc0800000000000000
+      internalID: -3690148376861327831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerDescend06
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 21
+        width: 25
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb59d110043871690800000000000000
+      internalID: -7631486732636154436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerCrouch01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 37
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c3268f4ed42f1f0800000000000000
+      internalID: -1012661320389870510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerCrouch02
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2
+        width: 35
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633000c25f9ccf9e0800000000000000
+      internalID: -1586170913898888394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerserkerCrouch03
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2
+        width: 36
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cda2cf9d6def300800000000000000
+      internalID: 287903657925205083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

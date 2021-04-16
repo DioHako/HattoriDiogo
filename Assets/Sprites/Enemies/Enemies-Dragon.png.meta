@@ -1,0 +1,2148 @@
+fileFormatVersion: 2
+guid: a7797855f107ff64e9169bd401738e5f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -217567667783890263
+    second: Green_DragonIdle
+  - first:
+      213: -6226566099525952752
+    second: Green_DragonDeath01
+  - first:
+      213: 2366217742677230509
+    second: Green_DragonDeath02
+  - first:
+      213: -4688835632280171165
+    second: Green_DragonBreath01
+  - first:
+      213: 5397218853025500643
+    second: Green_DragonBreath02
+  - first:
+      213: -3123580352704264838
+    second: Green_DragonBreath03
+  - first:
+      213: -7903727282991504958
+    second: Green_DragonAtk
+  - first:
+      213: -7132617130767399160
+    second: Green_DragonWalk01
+  - first:
+      213: 7730226713430391894
+    second: Green_DragonWalk02
+  - first:
+      213: -3901364598388272891
+    second: Green_DragonWalk03
+  - first:
+      213: -6937383088507054923
+    second: Green_DragonWalk04
+  - first:
+      213: 8521957412826431166
+    second: Green_DragonWalk05
+  - first:
+      213: -9179249179609141355
+    second: Green_DragonWalk06
+  - first:
+      213: -7212971048830160553
+    second: Green_DragonWalk07
+  - first:
+      213: 625762242597842157
+    second: Enemies-Dragon_14
+  - first:
+      213: 1411802724178404439
+    second: Enemies-Dragon_15
+  - first:
+      213: -5758492384415901261
+    second: Enemies-Dragon_16
+  - first:
+      213: -2866843385764398724
+    second: Enemies-Dragon_17
+  - first:
+      213: -84879278655290346
+    second: Green_FlyDragon01
+  - first:
+      213: -2245179893167669900
+    second: Green_FlyDragon02
+  - first:
+      213: -6758421760030167663
+    second: Green_FlyDragon03
+  - first:
+      213: -4331541854622763195
+    second: Green_FlyDragon04
+  - first:
+      213: -3059567728809854529
+    second: Green_FlyDragon05
+  - first:
+      213: -270072414638543242
+    second: Green_FlyDragonAtk01
+  - first:
+      213: 9001656624578400864
+    second: Green_FlyDragonAtk02
+  - first:
+      213: 1181452026866096771
+    second: Green_FlyDragonAtk03
+  - first:
+      213: 2178596665460043543
+    second: Green_FlyDragonAtk04
+  - first:
+      213: -4408729677313041295
+    second: Green_FlyDragonAtk05
+  - first:
+      213: 4931474016344904972
+    second: Blue_DragonIdle
+  - first:
+      213: -45772594574027678
+    second: Blue_DragonDeath01
+  - first:
+      213: -1675783014711946149
+    second: Blue_DragonDeath02
+  - first:
+      213: -4944001734349911912
+    second: Blue_DragonBreath01
+  - first:
+      213: 1124818094066721742
+    second: Blue_DragonBreath02
+  - first:
+      213: 3965849216604495785
+    second: Blue_DragonBreath03
+  - first:
+      213: 4960332719819180342
+    second: Blue_DragonAtk
+  - first:
+      213: 2174587238251173526
+    second: Blue_DragonWalk01
+  - first:
+      213: 5757933557491868621
+    second: Blue_DragonWalk02
+  - first:
+      213: 6408996402237613968
+    second: Blue_DragonWalk03
+  - first:
+      213: 9154819858540039232
+    second: Blue_DragonWalk04
+  - first:
+      213: 4940514373857760326
+    second: Blue_DragonWalk05
+  - first:
+      213: -4807672848986716469
+    second: Blue_DragonWalk06
+  - first:
+      213: 754528958094120031
+    second: Blue_DragonWalk07
+  - first:
+      213: 5749629085921143979
+    second: Enemies-Dragon_42
+  - first:
+      213: 60744320604504359
+    second: Enemies-Dragon_43
+  - first:
+      213: 5383122632904262580
+    second: Enemies-Dragon_44
+  - first:
+      213: 8542648274013811807
+    second: Enemies-Dragon_45
+  - first:
+      213: 5544835455496384053
+    second: Blue_FlyDragon01
+  - first:
+      213: -6039625086624727813
+    second: Blue_FlyDragon02
+  - first:
+      213: -4995102806389351204
+    second: Blue_FlyDragon03
+  - first:
+      213: 6542107385830939134
+    second: Blue_FlyDragon04
+  - first:
+      213: 420702628972763605
+    second: Blue_FlyDragon05
+  - first:
+      213: -6252394893983960167
+    second: Blue_FlyDragonAtk01
+  - first:
+      213: -5265170854485992391
+    second: Blue_FlyDragonAtk02
+  - first:
+      213: -7055420857646331098
+    second: Blue_FlyDragonAtk03
+  - first:
+      213: 4712782316712538251
+    second: Blue_FlyDragonAtk04
+  - first:
+      213: -8245068657232085889
+    second: Blue_FlyDragonAtk05
+  - first:
+      213: -7672443135880299943
+    second: Golden_DragonIdle
+  - first:
+      213: 6846191107515685662
+    second: Golden_DragonDeath01
+  - first:
+      213: -7755144174945214707
+    second: Golden_DragonDeath02
+  - first:
+      213: -971082960263958015
+    second: Golden_DragonBreath01
+  - first:
+      213: -6156157122110579206
+    second: Golden_DragonBreath02
+  - first:
+      213: -8277936206012445432
+    second: Golden_DragonBreath03
+  - first:
+      213: -3453335975742666718
+    second: Golden_DragonAtk
+  - first:
+      213: -5782117822930572803
+    second: Golden_DragonWalk01
+  - first:
+      213: 6546990878974299093
+    second: Golden_DragonWalk02
+  - first:
+      213: 4222932416623473227
+    second: Golden_DragonWalk03
+  - first:
+      213: 6814260589585219710
+    second: Golden_DragonWalk04
+  - first:
+      213: -4019535516026829750
+    second: Golden_DragonWalk05
+  - first:
+      213: 1346742147240297648
+    second: Golden_DragonWalk06
+  - first:
+      213: 3570028042375325502
+    second: Golden_DragonWalk07
+  - first:
+      213: -4920502334828227927
+    second: Enemies-Dragon_70
+  - first:
+      213: 5823070183722233505
+    second: Enemies-Dragon_71
+  - first:
+      213: -192586349954278897
+    second: Enemies-Dragon_72
+  - first:
+      213: -8821305394071670526
+    second: Enemies-Dragon_73
+  - first:
+      213: 5651534162843956943
+    second: Golden_FlyDragon01
+  - first:
+      213: -8354277530069570852
+    second: Golden_FlyDragon02
+  - first:
+      213: -5228853608455383848
+    second: Golden_FlyDragon03
+  - first:
+      213: -4794332794276421830
+    second: Golden_FlyDragon04
+  - first:
+      213: -2663008120365030588
+    second: Golden_FlyDragon05
+  - first:
+      213: -4938556513943306704
+    second: Golden_FlyDragonAtk01
+  - first:
+      213: 3544977922441852827
+    second: Golden_FlyDragonAtk02
+  - first:
+      213: 4822031617959355828
+    second: Golden_FlyDragonAtk03
+  - first:
+      213: 904477033513972484
+    second: Golden_FlyDragonAtk04
+  - first:
+      213: -2076986916487464307
+    second: Golden_FlyDragonAtk05
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Green_DragonIdle
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 777
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa812fdb5b0bfcf0800000000000000
+      internalID: -217567667783890263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_DragonDeath01
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 778
+        width: 32
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b144b4f1bc699a0800000000000000
+      internalID: -6226566099525952752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_DragonDeath02
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 778
+        width: 32
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3c08d008e76d020800000000000000
+      internalID: 2366217742677230509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_DragonBreath01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 734
+        width: 27
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d0fbfb5d8edeeb0800000000000000
+      internalID: -4688835632280171165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_DragonBreath02
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 732
+        width: 32
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed40ad73f5c6ea40800000000000000
+      internalID: 5397218853025500643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_DragonBreath03
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 731
+        width: 32
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a754ca9f730d6a4d0800000000000000
+      internalID: -3123580352704264838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_DragonAtk
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 730
+        width: 32
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c16abf69e1505290800000000000000
+      internalID: -7903727282991504958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_DragonWalk01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 684
+        width: 31
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8074eb1828ad30d90800000000000000
+      internalID: -7132617130767399160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_DragonWalk02
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 683
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cf0474d38474b60800000000000000
+      internalID: 7730226713430391894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_DragonWalk03
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 682
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50158cd61919bd9c0800000000000000
+      internalID: -3901364598388272891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_DragonWalk04
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 683
+        width: 32
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b41cba36d679bf90800000000000000
+      internalID: -6937383088507054923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_DragonWalk05
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 682
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebeb68e9d13144670800000000000000
+      internalID: 8521957412826431166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_DragonWalk06
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 683
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fe9904181cc9080800000000000000
+      internalID: -9179249179609141355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_DragonWalk07
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 682
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7513d4b0c0166eb90800000000000000
+      internalID: -7212971048830160553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Dragon_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 642
+        width: 19
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec65e7b1772fa800800000000000000
+      internalID: 625762242597842157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Dragon_15
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 643
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754259bf81bb79310800000000000000
+      internalID: 1411802724178404439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Dragon_16
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 647
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b91919afa9b510b0800000000000000
+      internalID: -5758492384415901261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Dragon_17
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 642
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79b5dc312de638d0800000000000000
+      internalID: -2866843385764398724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_FlyDragon01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 604
+        width: 46
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614c5faeeb272def0800000000000000
+      internalID: -84879278655290346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_FlyDragon02
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 609
+        width: 48
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d34ea58c487d0e0800000000000000
+      internalID: -2245179893167669900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_FlyDragon03
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 608
+        width: 47
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19da12787334532a0800000000000000
+      internalID: -6758421760030167663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_FlyDragon04
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 609
+        width: 46
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5473979f1a543e3c0800000000000000
+      internalID: -4331541854622763195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_FlyDragon05
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 604
+        width: 46
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb93a066c5b3a85d0800000000000000
+      internalID: -3059567728809854529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_FlyDragonAtk01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 548
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e66ddd192804cf0800000000000000
+      internalID: -270072414638543242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_FlyDragonAtk02
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 548
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062990ad10f4cec70800000000000000
+      internalID: 9001656624578400864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_FlyDragonAtk03
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 550
+        width: 46
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ad48cdb5c556010800000000000000
+      internalID: 1181452026866096771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_FlyDragonAtk04
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 548
+        width: 40
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fa891ef1eeb3e10800000000000000
+      internalID: 2178596665460043543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_FlyDragonAtk05
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 549
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c980987bb01d2c0800000000000000
+      internalID: -4408729677313041295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_DragonIdle
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 508
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c059e436d7d107440800000000000000
+      internalID: 4931474016344904972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_DragonDeath01
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 509
+        width: 32
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26497f751126d5ff0800000000000000
+      internalID: -45772594574027678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_DragonDeath02
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 509
+        width: 32
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54167f0a3c6eb8e0800000000000000
+      internalID: -1675783014711946149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_DragonBreath01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 465
+        width: 27
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8988827fd90636bb0800000000000000
+      internalID: -4944001734349911912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_DragonBreath02
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 463
+        width: 32
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec367c5d8182c9f00800000000000000
+      internalID: 1124818094066721742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_DragonBreath03
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 462
+        width: 32
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afd87cb9d6890730800000000000000
+      internalID: 3965849216604495785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_DragonAtk
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 461
+        width: 32
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639c194e354a6d440800000000000000
+      internalID: 4960332719819180342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_DragonWalk01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 415
+        width: 31
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6961f0d529fad2e10800000000000000
+      internalID: 2174587238251173526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_DragonWalk02
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 414
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3aa9e401a48ef40800000000000000
+      internalID: 5757933557491868621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_DragonWalk03
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 413
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0972122854451f850800000000000000
+      internalID: 6408996402237613968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_DragonWalk04
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 414
+        width: 32
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c88f238247c0f70800000000000000
+      internalID: 9154819858540039232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_DragonWalk05
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 413
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644d085a5ab309440800000000000000
+      internalID: 4940514373857760326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_DragonWalk06
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 414
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc64bd71407b74db0800000000000000
+      internalID: -4807672848986716469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_DragonWalk07
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 413
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5412f7f610a87a00800000000000000
+      internalID: 754528958094120031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Dragon_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 373
+        width: 19
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac6598d039cacf40800000000000000
+      internalID: 5749629085921143979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Dragon_43
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 374
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72101c343aec7d000800000000000000
+      internalID: 60744320604504359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Dragon_44
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 378
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3cf9c7381b4ba40800000000000000
+      internalID: 5383122632904262580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Dragon_45
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 373
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5472b528559d8670800000000000000
+      internalID: 8542648274013811807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_FlyDragon01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 335
+        width: 46
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e6ade087633fc40800000000000000
+      internalID: 5544835455496384053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_FlyDragon02
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 340
+        width: 48
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcf137abf0fe2ca0800000000000000
+      internalID: -6039625086624727813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_FlyDragon03
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 339
+        width: 47
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc1b987674ddaab0800000000000000
+      internalID: -4995102806389351204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_FlyDragon04
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 340
+        width: 46
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef999ee710c3aca50800000000000000
+      internalID: 6542107385830939134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_FlyDragon05
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 335
+        width: 46
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d99ef3efc2a6d500800000000000000
+      internalID: 420702628972763605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_FlyDragonAtk01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 279
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993be9478f70b39a0800000000000000
+      internalID: -6252394893983960167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_FlyDragonAtk02
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 279
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c5f90010b5ee6b0800000000000000
+      internalID: -5265170854485992391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_FlyDragonAtk03
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 281
+        width: 46
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62bcb177c1c161e90800000000000000
+      internalID: -7055420857646331098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_FlyDragonAtk04
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 279
+        width: 40
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80b4633c8a276140800000000000000
+      internalID: 4712782316712538251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_FlyDragonAtk05
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 280
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c79f09db1a39d80800000000000000
+      internalID: -8245068657232085889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_DragonIdle
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 239
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a78764e91068590800000000000000
+      internalID: -7672443135880299943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_DragonDeath01
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 240
+        width: 32
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b19e32a8e820f50800000000000000
+      internalID: 6846191107515685662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_DragonDeath02
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 240
+        width: 32
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f537e1671306490800000000000000
+      internalID: -7755144174945214707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_DragonBreath01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 196
+        width: 27
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102380251350682f0800000000000000
+      internalID: -971082960263958015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_DragonBreath02
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 194
+        width: 32
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd9b13d6bfe09aa0800000000000000
+      internalID: -6156157122110579206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_DragonBreath03
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 193
+        width: 32
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d884701ecde1d80800000000000000
+      internalID: -8277936206012445432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_DragonAtk
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 192
+        width: 32
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22808c30a394310d0800000000000000
+      internalID: -3453335975742666718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_DragonWalk01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 146
+        width: 31
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9a4ca997ac1cfa0800000000000000
+      internalID: -5782117822930572803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_DragonWalk02
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 145
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db4cf854859bda50800000000000000
+      internalID: 6546990878974299093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_DragonWalk03
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 144
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42f25ba8aeda9a30800000000000000
+      internalID: 4222932416623473227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_DragonWalk04
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 145
+        width: 32
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70cb2917ed119e50800000000000000
+      internalID: 6814260589585219710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_DragonWalk05
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 144
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44872d9ebdb738c0800000000000000
+      internalID: -4019535516026829750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_DragonWalk06
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 145
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b40e4af8d690b210800000000000000
+      internalID: 1346742147240297648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_DragonWalk07
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 144
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37e6f7f6994b8130800000000000000
+      internalID: 3570028042375325502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Dragon_70
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 104
+        width: 19
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a25518423dd6bbb0800000000000000
+      internalID: -4920502334828227927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Dragon_71
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 105
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aeaeeaea73bfc050800000000000000
+      internalID: 5823070183722233505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Dragon_72
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 109
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ad26e2cbbc35df0800000000000000
+      internalID: -192586349954278897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Dragon_73
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 104
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201fe1b3b7d649580800000000000000
+      internalID: -8821305394071670526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_FlyDragon01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 66
+        width: 46
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc67c44c0684e6e40800000000000000
+      internalID: 5651534162843956943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_FlyDragon02
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 71
+        width: 48
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaec2969d4af0c80800000000000000
+      internalID: -8354277530069570852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_FlyDragon03
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 70
+        width: 47
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d45f75c8516f67b0800000000000000
+      internalID: -5228853608455383848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_FlyDragon04
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 71
+        width: 46
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fd52e99bb177db0800000000000000
+      internalID: -4794332794276421830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_FlyDragon05
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 66
+        width: 46
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44369a749381b0bd0800000000000000
+      internalID: -2663008120365030588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_FlyDragonAtk01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 10
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03eb7332409b67bb0800000000000000
+      internalID: -4938556513943306704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_FlyDragonAtk02
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 10
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97bfbb63aa423130800000000000000
+      internalID: 3544977922441852827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_FlyDragonAtk03
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 12
+        width: 46
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b56b24553c4be240800000000000000
+      internalID: 4822031617959355828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_FlyDragonAtk04
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 10
+        width: 40
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4037912e1195d8c00800000000000000
+      internalID: 904477033513972484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golden_FlyDragonAtk05
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 11
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a71af576f0d23e0800000000000000
+      internalID: -2076986916487464307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

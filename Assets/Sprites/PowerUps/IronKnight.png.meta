@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: 2f0a40b3fa9128545a13adf0db4d0567
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6473692767950354325
+    second: IronKnightIdle
+  - first:
+      213: -2190854806323002428
+    second: IronKnightJump01
+  - first:
+      213: -7958473972301704767
+    second: IronKnightJump02
+  - first:
+      213: 3700928162720276873
+    second: IronKnightJump03
+  - first:
+      213: 7815775551277691410
+    second: HeadIconIronKnight01
+  - first:
+      213: 1145656261007662352
+    second: HeadIconIronKnight02
+  - first:
+      213: 3302099796984958358
+    second: IronKnightWalk01
+  - first:
+      213: 5791002527582159205
+    second: IronKnightWalk02
+  - first:
+      213: 8776685038895682162
+    second: IronKnightWalk03
+  - first:
+      213: 6234170421635322834
+    second: IronKnightWalk04
+  - first:
+      213: 5293844155627164218
+    second: IronKnightWalk05
+  - first:
+      213: 4592299054399982246
+    second: IronKnightWalk06
+  - first:
+      213: -2839049067898927540
+    second: IronKnightWallclimb01
+  - first:
+      213: -4653336490610835137
+    second: IronKnightWallclimb02
+  - first:
+      213: 7970836297245365960
+    second: IronKnightWallclimb03
+  - first:
+      213: -5463356715903586850
+    second: IronKnightHenshin01
+  - first:
+      213: -6013460965166374892
+    second: IronKnightHenshin02
+  - first:
+      213: 3713521249820617309
+    second: IronKnightHenshin03
+  - first:
+      213: -3165492241316541237
+    second: IronKnightHenshin04
+  - first:
+      213: -6404456423655083235
+    second: IronKnightHenshin05
+  - first:
+      213: -5014017838995476562
+    second: IronKnightClimbing01
+  - first:
+      213: -6303129529354967734
+    second: IronKnightClimbing02
+  - first:
+      213: 2330370557680464453
+    second: IronKnightClimbing03
+  - first:
+      213: 876961185060080335
+    second: IronKnightClimbing04
+  - first:
+      213: 4568917364937615362
+    second: IronKnightClimbing05
+  - first:
+      213: -6630714703762128725
+    second: IronKnightClimbing06
+  - first:
+      213: 5636454706549121335
+    second: IronKnightDescend01
+  - first:
+      213: 7937756774497824248
+    second: IronKnightDescend02
+  - first:
+      213: 3193340311555976479
+    second: IronKnightDescend03
+  - first:
+      213: 6444913300113300912
+    second: IronKnightDescend04
+  - first:
+      213: 1137245819097642822
+    second: IronKnightDescend05
+  - first:
+      213: -5385861756962044256
+    second: IronKnightDescend06
+  - first:
+      213: -8653830747311473915
+    second: IronKnightCrouch01
+  - first:
+      213: -558500399572812964
+    second: IronKnightCrouch02
+  - first:
+      213: 5275194793368697631
+    second: IronKnightCrouch03
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IronKnightIdle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 244
+        width: 30
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59732baf54d27d950800000000000000
+      internalID: 6473692767950354325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightJump01
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 245
+        width: 31
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c309aa49258891e0800000000000000
+      internalID: -2190854806323002428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightJump02
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 242
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1d3c68612dd8190800000000000000
+      internalID: -7958473972301704767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightJump03
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 244
+        width: 30
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9816e2e3e865c5330800000000000000
+      internalID: 3700928162720276873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadIconIronKnight01
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 261
+        width: 22
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212f6124476377c60800000000000000
+      internalID: 7815775551277691410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadIconIronKnight02
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 261
+        width: 22
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d5018ac4036ef00800000000000000
+      internalID: 1145656261007662352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightWalk01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 203
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d8d24254a63dd20800000000000000
+      internalID: 3302099796984958358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightWalk02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 203
+        width: 28
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5618ce5ed16cd5050800000000000000
+      internalID: 5791002527582159205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightWalk03
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 203
+        width: 28
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272dcd0ca8c0dc970800000000000000
+      internalID: 8776685038895682162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightWalk04
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 203
+        width: 29
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d312dae7f8348650800000000000000
+      internalID: 6234170421635322834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightWalk05
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 203
+        width: 28
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a325f682633877940800000000000000
+      internalID: 5293844155627164218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightWalk06
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 203
+        width: 29
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa8fdfa8af1bbf30800000000000000
+      internalID: 4592299054399982246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightWallclimb01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 157
+        width: 29
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c460bf72aeba998d0800000000000000
+      internalID: -2839049067898927540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightWallclimb02
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 163
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3147c0cd170c6fb0800000000000000
+      internalID: -4653336490610835137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightWallclimb03
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 165
+        width: 28
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6991c81691e9e60800000000000000
+      internalID: 7970836297245365960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightHenshin01
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 109
+        width: 35
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd625353024e24b0800000000000000
+      internalID: -5463356715903586850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightHenshin02
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 105
+        width: 38
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410a494ec15eb8ca0800000000000000
+      internalID: -6013460965166374892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightHenshin03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 99
+        width: 47
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a2c61d6e3198330800000000000000
+      internalID: 3713521249820617309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightHenshin04
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 105
+        width: 38
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc8219f399e114d0800000000000000
+      internalID: -3165492241316541237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightHenshin05
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 115
+        width: 30
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13f190a0dcce17a0800000000000000
+      internalID: -6404456423655083235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightClimbing01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 30
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafe3314751aa6ab0800000000000000
+      internalID: -5014017838995476562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightClimbing02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 61
+        width: 30
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45a585a619c688a0800000000000000
+      internalID: -6303129529354967734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightClimbing03
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 60
+        width: 30
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542b295eca3275020800000000000000
+      internalID: 2330370557680464453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightClimbing04
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 61
+        width: 31
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcacf4d2d879b2c00800000000000000
+      internalID: 876961185060080335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightClimbing05
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 63
+        width: 30
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2086831e22e086f30800000000000000
+      internalID: 4568917364937615362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightClimbing06
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 61
+        width: 30
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba08c43ab18faf3a0800000000000000
+      internalID: -6630714703762128725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightDescend01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 28
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731607041b5b83e40800000000000000
+      internalID: 5636454706549121335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightDescend02
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 19
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fda469fab3982e60800000000000000
+      internalID: 7937756774497824248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightDescend03
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 20
+        width: 27
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1daa352816015c20800000000000000
+      internalID: 3193340311555976479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightDescend04
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 21
+        width: 27
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd9175ff7ee07950800000000000000
+      internalID: 6444913300113300912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightDescend05
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 19
+        width: 27
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647fc9d0c0f48cf00800000000000000
+      internalID: 1137245819097642822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightDescend06
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 22
+        width: 27
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a68aee74439145b0800000000000000
+      internalID: -5385861756962044256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightCrouch01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 36
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b752809ca67e780800000000000000
+      internalID: -8653830747311473915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightCrouch02
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2
+        width: 38
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b7c8c78decf38f0800000000000000
+      internalID: -558500399572812964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronKnightCrouch03
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2
+        width: 37
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b3bb327b1453940800000000000000
+      internalID: 5275194793368697631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

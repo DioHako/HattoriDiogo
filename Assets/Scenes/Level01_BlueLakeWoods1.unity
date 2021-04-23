@@ -716,7 +716,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1100308572}
   - component: {fileID: 1100308573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Level Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1617,8 +1617,11 @@ GameObject:
   - component: {fileID: 2121476765}
   - component: {fileID: 2121476764}
   - component: {fileID: 2121476767}
-  - component: {fileID: 2121476766}
   - component: {fileID: 2121476763}
+  - component: {fileID: 2121476769}
+  - component: {fileID: 2121476766}
+  - component: {fileID: 2121476770}
+  - component: {fileID: 2121476768}
   m_Layer: 0
   m_Name: Kid
   m_TagString: Untagged
@@ -1690,7 +1693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4323700a83039204ea4393e026e22432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _walkSpeed: 120
+  _walkSpeed: 125
 --- !u!58 &2121476767
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1707,3 +1710,53 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.25}
   serializedVersion: 2
   m_Radius: 0.25
+--- !u!114 &2121476768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121476762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e4a8cecf0a1624299a3e59e34a9d9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &2121476769
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121476762}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 289b62f941cc64c4f9f74bd059bc2d6b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2121476770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121476762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21694a2486eef0c4890c82e9f5b86204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _jumpForce: 5.5
+  _groundCheckLenght: 0.17
+  _groundCheckOffset: {x: 0.25, y: 0, z: 0}
+  _isGround:
+    serializedVersion: 2
+    m_Bits: 64
+  _isGrounded: 0

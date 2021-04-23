@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class KidMovement : MonoBehaviour
@@ -8,6 +6,7 @@ public class KidMovement : MonoBehaviour
     [SerializeField] private float _walkSpeed;
 
     private Rigidbody2D _rigidbody2D;
+    private Animator _animator;
 
     private float _moveInput;
     private bool _facingRight = true;
@@ -15,6 +14,7 @@ public class KidMovement : MonoBehaviour
     private void Awake()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -31,6 +31,11 @@ public class KidMovement : MonoBehaviour
     {
         _rigidbody2D.velocity = new Vector2(_moveInput * Time.fixedDeltaTime, _rigidbody2D.velocity.y);
 
+        // Walk ANIMATION
+        _animator.SetFloat("isRunning", Mathf.Abs(Input.GetAxisRaw("Horizontal")));
+
+        // REVISED THIS SECTION
+        // Hisham showed a better way to implement this section
         if (!_facingRight && _moveInput > 0)
         {
             Flip();
@@ -46,6 +51,8 @@ public class KidMovement : MonoBehaviour
         _moveInput = Input.GetAxisRaw("Horizontal") * _walkSpeed;
     }
 
+    // REVISED THIS FUNCTION
+    // Hisham showed a better way to implement this function.
     private void Flip()
     {
         _facingRight = !_facingRight;

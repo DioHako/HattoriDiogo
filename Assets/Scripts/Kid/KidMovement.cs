@@ -1,25 +1,39 @@
+using System;
 using UnityEngine;
 
 public class KidMovement : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField] private float _walkSpeed;
+    [SerializeField] private float _rollSpeed;
 
     private Rigidbody2D _rigidbody2D;
     private Animator _animator;
+    private SpriteRenderer _spriteRenderer;
+    private KidAbility _kidAbility;
 
     private float _moveInput;
-    private bool _facingRight = true;
 
     private void Awake()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        _kidAbility = GetComponent<KidAbility>();
+    }
+
+    private void OnEnable()
+    {
+        _kidAbility.OnRolling += Roll;
+    }
+    private void OnDisable()
+    {
+        _kidAbility.OnRolling -= Roll;
     }
 
     private void Update()
     {
-        MoveInput();
+        MoveInput();      
     }
 
     private void FixedUpdate()
@@ -29,36 +43,28 @@ public class KidMovement : MonoBehaviour
 
     private void Movements()
     {
-        _rigidbody2D.velocity = new Vector2(_moveInput * Time.fixedDeltaTime, _rigidbody2D.velocity.y);
+        _rigidbody2D.velocity = new Vector2(_moveInput * _walkSpeed * Time.fixedDeltaTime, _rigidbody2D.velocity.y);
 
         // Walk ANIMATION
         _animator.SetFloat("isRunning", Mathf.Abs(Input.GetAxisRaw("Horizontal")));
 
-        // REVISED THIS SECTION
-        // Hisham showed a better way to implement this section
-        if (!_facingRight && _moveInput > 0)
+        
+        if (_spriteRenderer.flipX && _moveInput > 0 || !_spriteRenderer.flipX && _moveInput < 0)
         {
-            Flip();
-        }
-        else if (_facingRight && _moveInput < 0)
-        {
-            Flip();
+            _spriteRenderer.flipX = !_spriteRenderer.flipX;
         }
     }
 
     private void MoveInput()
     {
-        _moveInput = Input.GetAxisRaw("Horizontal") * _walkSpeed;
+        _moveInput = Input.GetAxisRaw("Horizontal");
     }
 
-    // REVISED THIS FUNCTION
-    // Hisham showed a better way to implement this function.
-    private void Flip()
+    // Tried to implement a roll/dash mechanic through Event Action
+    // The Event Action is working, but the Roll itself not
+    private void Roll()
     {
-        _facingRight = !_facingRight;
-
-        Vector3 theScale = transform.localScale;
-        theScale.x *= -1;
-        transform.localScale = theScale;
+        Debug.Log("The KID is ROLLING!!!");
+        _rigidbody2D.AddForce(new Vector2(_moveInput * _rollSpeed * Time.fixedDeltaTime, _rigidbody2D.velocity.y), ForceMode2D.Impulse);
     }
 }

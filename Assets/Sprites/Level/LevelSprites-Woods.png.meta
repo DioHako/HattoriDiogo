@@ -268,7 +268,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LevelSprites-Woods_13
+      name: Diamond2
       rect:
         serializedVersion: 2
         x: 91
@@ -289,7 +289,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LevelSprites-Woods_14
+      name: Diamond1
       rect:
         serializedVersion: 2
         x: 91
@@ -541,7 +541,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LevelSprites-Woods_27
+      name: Diamond4
       rect:
         serializedVersion: 2
         x: 91
@@ -562,7 +562,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LevelSprites-Woods_28
+      name: Diamond3
       rect:
         serializedVersion: 2
         x: 91
@@ -667,7 +667,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LevelSprites-Woods_33
+      name: Cross1
       rect:
         serializedVersion: 2
         x: 4
@@ -688,7 +688,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LevelSprites-Woods_34
+      name: Cross2
       rect:
         serializedVersion: 2
         x: 22
@@ -709,7 +709,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LevelSprites-Woods_35
+      name: Cross3
       rect:
         serializedVersion: 2
         x: 40

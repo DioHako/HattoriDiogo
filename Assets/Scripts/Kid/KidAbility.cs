@@ -21,7 +21,7 @@ public class KidAbility : MonoBehaviour
 
     private void RollAbility()
     {
-        if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0 && Input.GetKeyDown(KeyCode.J) && _kidJump._isGrounded)
+        if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0 && Input.GetKeyDown(KeyCode.J) && _kidJump.isGrounded)
         {
             OnRolling?.Invoke();
             _animator.SetTrigger("isRolling");

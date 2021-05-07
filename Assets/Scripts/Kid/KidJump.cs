@@ -10,7 +10,7 @@ public class KidJump : MonoBehaviour
     [SerializeField] private Vector3 _groundCheckOffset;
     [SerializeField] private LayerMask _isGround;
 
-    [HideInInspector] public bool _isGrounded;
+    public bool isGrounded { get; private set; }
     
     private Rigidbody2D _rigidbody2D;
     private Animator _animator;
@@ -40,13 +40,13 @@ public class KidJump : MonoBehaviour
 
     private void CheckInputs()
     {
-        _isGrounded = Physics2D.Raycast(transform.position + _groundCheckOffset, Vector2.down, _groundCheckLenght, _isGround) ||
+        isGrounded = Physics2D.Raycast(transform.position + _groundCheckOffset, Vector2.down, _groundCheckLenght, _isGround) ||
                       Physics2D.Raycast(transform.position - _groundCheckOffset, Vector2.down, _groundCheckLenght, _isGround);
 
         // Jump ANIMATION
-        _animator.SetBool("isGrounded", _isGrounded);
+        _animator.SetBool("isGrounded", isGrounded);
 
-        if (Input.GetButtonDown("Jump") && _isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             _canJump = true;
         }
@@ -61,6 +61,11 @@ public class KidJump : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position + _groundCheckOffset, transform.position + _groundCheckOffset + Vector3.down * _groundCheckLenght);
         Gizmos.DrawLine(transform.position - _groundCheckOffset, transform.position - _groundCheckOffset + Vector3.down * _groundCheckLenght);
+    }
+
+    public void SetJumpForce(float newJumpForce)
+    {
+        _jumpForce = newJumpForce;
     }
 }
 

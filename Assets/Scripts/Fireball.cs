@@ -16,4 +16,13 @@ public class Fireball : MonoBehaviour
         GetComponent<Rigidbody2D>().velocity = new Vector2(fireballSpeed, 0);
         Destroy(gameObject, lifetime);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Destroy(gameObject);
+            collision.gameObject.SetActive(false);
+        }
+    }
 }

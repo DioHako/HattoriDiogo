@@ -10,7 +10,7 @@ public class KidJump : MonoBehaviour
     [SerializeField] private Vector3 _groundCheckOffset;
     [SerializeField] private LayerMask _isGround;
 
-    public bool isGrounded { get; private set; }
+    public bool IsGrounded { get; private set; }
     
     private Rigidbody2D _rigidbody2D;
     private Animator _animator;
@@ -40,13 +40,13 @@ public class KidJump : MonoBehaviour
 
     private void CheckInputs()
     {
-        isGrounded = Physics2D.Raycast(transform.position + _groundCheckOffset, Vector2.down, _groundCheckLenght, _isGround) ||
+        IsGrounded = Physics2D.Raycast(transform.position + _groundCheckOffset, Vector2.down, _groundCheckLenght, _isGround) ||
                       Physics2D.Raycast(transform.position - _groundCheckOffset, Vector2.down, _groundCheckLenght, _isGround);
 
         // Jump ANIMATION
-        _animator.SetBool("isGrounded", isGrounded);
+        _animator.SetBool("isGrounded", IsGrounded);
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && IsGrounded)
         {
             _canJump = true;
         }

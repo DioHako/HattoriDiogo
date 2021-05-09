@@ -26,9 +26,9 @@ public class Collectables : MonoBehaviour
         }
     }
 
-    private void OnValidate()
-    {
-        var collider = GetComponent<CircleCollider2D>();
-        collider.isTrigger = true;
-    }
+    //private void OnValidate()
+    //{
+    //    var collider = GetComponent<CircleCollider2D>();
+    //    collider.isTrigger = true;
+    //}
 }

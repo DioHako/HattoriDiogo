@@ -14,10 +14,10 @@ TagManager:
   - UI
   - Ground
   - FloatingBox
-  - Enemy Head
-  - 
-  - 
-  - 
+  - Enemy
+  - Collectables
+  - Rubber Block
+  - Item Box
   - 
   - 
   - 

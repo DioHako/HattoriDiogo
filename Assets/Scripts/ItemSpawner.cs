@@ -8,7 +8,7 @@ public class ItemSpawner : MonoBehaviour
 
     private int randomItem;
 
-    private void Start()
+    private void OnEnable()
     {
         randomItem = Random.Range(0, collectablePrefab.Count);
 

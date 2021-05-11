@@ -57,10 +57,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2599360451976754463}
   - component: {fileID: 2599360451976754460}
+  - component: {fileID: 2599360451976754456}
   - component: {fileID: 2599360451976754458}
   - component: {fileID: 2599360451976754461}
   - component: {fileID: 2599360451976754459}
-  - component: {fileID: 2599360451976754456}
   m_Layer: 8
   m_Name: Green Dragon
   m_TagString: Enemy
@@ -134,6 +134,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2599360451976754456
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2599360451976754462}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c7302a6ebdac55c49b2239e094a5c60e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!50 &2599360451976754458
 Rigidbody2D:
   serializedVersion: 4
@@ -151,7 +170,7 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
@@ -193,23 +212,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6da58dd4a588f3c43a87a96a3950a43b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _walkSpeed: 1
---- !u!95 &2599360451976754456
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2599360451976754462}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c7302a6ebdac55c49b2239e094a5c60e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  _walkSpeed: 1.5
+  _hitCount: 1
+  _playerBounce: 8.5
+  _checkDistance: 1
+  _rayCastOffset: {x: 0, y: 0.45}
+  _checkWalls:
+    serializedVersion: 2
+    m_Bits: 20480

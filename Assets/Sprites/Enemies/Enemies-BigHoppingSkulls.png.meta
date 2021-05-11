@@ -1,0 +1,996 @@
+fileFormatVersion: 2
+guid: 9386a52cf584d154ab0c8abbe35f02c3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2534194190840358015
+    second: Gray_HopSkull01
+  - first:
+      213: 951420377713392401
+    second: Gray_HopSkull02
+  - first:
+      213: 7737318401438433238
+    second: Gray_HopSkull03
+  - first:
+      213: 223696616756577708
+    second: Gray_HopSkull04
+  - first:
+      213: -2435968170874266334
+    second: Gray_HopSkull05
+  - first:
+      213: -8200553997489963825
+    second: Gray_HopSkull06
+  - first:
+      213: 5959478337744583152
+    second: Gray_HopSkull07
+  - first:
+      213: -1367055289056175415
+    second: Gray_HopSkull08
+  - first:
+      213: -3237345039655812810
+    second: Gray_HopSkull09
+  - first:
+      213: 361307048120173167
+    second: Gray_HopSkull_Death01
+  - first:
+      213: 5117549161161763198
+    second: Gray_HopSkull_Death02
+  - first:
+      213: -6552280474374910187
+    second: Gray_HopSkull_Death03
+  - first:
+      213: 6436064940685950078
+    second: Enemies-BigHoppingSkulls_13
+  - first:
+      213: -8625425125667514765
+    second: Enemies-BigHoppingSkulls_14
+  - first:
+      213: -1707173350596347959
+    second: Enemies-BigHoppingSkulls_15
+  - first:
+      213: 4432046432145029219
+    second: Enemies-BigHoppingSkulls_16
+  - first:
+      213: -8049346642257424445
+    second: Enemies-BigHoppingSkulls_17
+  - first:
+      213: 7299646215683465380
+    second: Enemies-BigHoppingSkulls_18
+  - first:
+      213: -2262146868048866353
+    second: Enemies-BigHoppingSkulls_19
+  - first:
+      213: 2781064025712889962
+    second: Enemies-BigHoppingSkulls_20
+  - first:
+      213: 2838300501497938017
+    second: Enemies-BigHoppingSkulls_21
+  - first:
+      213: -1931132750522602648
+    second: Enemies-BigHoppingSkulls_22
+  - first:
+      213: -4128507274304917215
+    second: Enemies-BigHoppingSkulls_24
+  - first:
+      213: 5796693150625696027
+    second: Enemies-BigHoppingSkulls_25
+  - first:
+      213: -185888796991568209
+    second: Enemies-BigHoppingSkulls_26
+  - first:
+      213: 2950686946256095728
+    second: Enemies-BigHoppingSkulls_27
+  - first:
+      213: 3349958134826251373
+    second: Enemies-BigHoppingSkulls_28
+  - first:
+      213: 3079265044759372362
+    second: Enemies-BigHoppingSkulls_29
+  - first:
+      213: 4689614371051342259
+    second: Enemies-BigHoppingSkulls_30
+  - first:
+      213: 5976792404345777770
+    second: Enemies-BigHoppingSkulls_31
+  - first:
+      213: 4397857437235589486
+    second: Enemies-BigHoppingSkulls_32
+  - first:
+      213: 4602232872035703732
+    second: Enemies-BigHoppingSkulls_33
+  - first:
+      213: 6159585971658060657
+    second: Enemies-BigHoppingSkulls_34
+  - first:
+      213: 2824901509322145048
+    second: Enemies-BigHoppingSkulls_35
+  - first:
+      213: 1999929415463580203
+    second: Enemies-BigHoppingSkulls_37
+  - first:
+      213: -5765774111654853542
+    second: Enemies-BigHoppingSkulls_38
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gray_HopSkull01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 328
+        width: 25
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74e5e890344b2320800000000000000
+      internalID: 2534194190840358015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_HopSkull02
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 328
+        width: 31
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bbcadeacf143d00800000000000000
+      internalID: 951420377713392401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_HopSkull03
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 329
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfb4df871a706b60800000000000000
+      internalID: 7737318401438433238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_HopSkull04
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 328
+        width: 27
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca58b3343eaba1300800000000000000
+      internalID: 223696616756577708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_HopSkull05
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 328
+        width: 25
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d91eadad3b13ed0800000000000000
+      internalID: -2435968170874266334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_HopSkull06
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 291
+        width: 27
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc73327697c13e80800000000000000
+      internalID: -8200553997489963825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_HopSkull07
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 291
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9b6e739f154b250800000000000000
+      internalID: 5959478337744583152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_HopSkull08
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 289
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cadc73257e370de0800000000000000
+      internalID: -1367055289056175415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_HopSkull09
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 290
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63141ffa6d3a213d0800000000000000
+      internalID: -3237345039655812810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_HopSkull_Death01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 252
+        width: 28
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f624c0298de930500800000000000000
+      internalID: 361307048120173167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_HopSkull_Death02
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 252
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7925af19df250740800000000000000
+      internalID: 5117549161161763198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_HopSkull_Death03
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 249
+        width: 33
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fc720cf9f9115a0800000000000000
+      internalID: -6552280474374910187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 208
+        width: 25
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c7eecb6fe715950800000000000000
+      internalID: 6436064940685950078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 208
+        width: 31
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376dbd33c855c4880800000000000000
+      internalID: -8625425125667514765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 209
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7f0b3f1e6ee48e0800000000000000
+      internalID: -1707173350596347959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_16
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 208
+        width: 27
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368ba008fbac18d30800000000000000
+      internalID: 4432046432145029219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_17
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 208
+        width: 25
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf434a40e9fa4090800000000000000
+      internalID: -8049346642257424445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 171
+        width: 27
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a066d7de8d8d4560800000000000000
+      internalID: 7299646215683465380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 171
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc35f2ca86d3b90e0800000000000000
+      internalID: -2262146868048866353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_20
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 169
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a601c362ff2589620800000000000000
+      internalID: 2781064025712889962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_21
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 170
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1600995a44ba36720800000000000000
+      internalID: 2838300501497938017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 132
+        width: 28
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b2af6befc3335e0800000000000000
+      internalID: -1931132750522602648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 132
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121707ef18894b6c0800000000000000
+      internalID: -4128507274304917215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_25
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 129
+        width: 33
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b190cf255bdf17050800000000000000
+      internalID: 5796693150625696027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 89
+        width: 25
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6c79fbf179b6df0800000000000000
+      internalID: -185888796991568209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_27
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 89
+        width: 31
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f90afae422f2f820800000000000000
+      internalID: 2950686946256095728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_28
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 90
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64bfbebc217d7e20800000000000000
+      internalID: 3349958134826251373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_29
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 89
+        width: 27
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42e82a5e3fbbba20800000000000000
+      internalID: 3079265044759372362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_30
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 89
+        width: 25
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b905108c6bd41140800000000000000
+      internalID: 4689614371051342259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 52
+        width: 27
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e684d7605d1f250800000000000000
+      internalID: 5976792404345777770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_32
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 52
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61bc3fc904580d30800000000000000
+      internalID: 4397857437235589486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_33
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 50
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb5057d96a6edf30800000000000000
+      internalID: 4602232872035703732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_34
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 51
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173782c6ece3b7550800000000000000
+      internalID: 6159585971658060657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 13
+        width: 28
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d7c9ca4f0143720800000000000000
+      internalID: 2824901509322145048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_37
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 13
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22bf80153d21cb10800000000000000
+      internalID: 1999929415463580203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-BigHoppingSkulls_38
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 10
+        width: 33
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a544bab6efadbffa0800000000000000
+      internalID: -5765774111654853542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

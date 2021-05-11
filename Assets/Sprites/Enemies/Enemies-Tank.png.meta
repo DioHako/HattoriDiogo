@@ -1,0 +1,1326 @@
+fileFormatVersion: 2
+guid: aa10c8aad5393bd49be6e749d537554a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3086420951553339628
+    second: GrayTankHead01
+  - first:
+      213: 7635330426497953885
+    second: GrayTankHead02
+  - first:
+      213: 8120821585431219005
+    second: GrayTankHead03
+  - first:
+      213: -7301851334198564932
+    second: GrayTankDeath03
+  - first:
+      213: 4462463511237874772
+    second: GrayTankDeath02
+  - first:
+      213: -3547135862407851879
+    second: GrayTankDeath01
+  - first:
+      213: 3610148761085282438
+    second: GrayTankDeath04
+  - first:
+      213: 8186039768179642060
+    second: GrayTankShoot01
+  - first:
+      213: -2638433222697626130
+    second: GrayTankShoot02
+  - first:
+      213: -3210740175925772385
+    second: GrayTankShoot03
+  - first:
+      213: -861908943115566945
+    second: GrayTankTrackStuck
+  - first:
+      213: -7730027177371471396
+    second: GrayTankTrack01
+  - first:
+      213: -2376595431317260813
+    second: GrayTankTrack02
+  - first:
+      213: 7462058557748478197
+    second: GrayTankTrack03
+  - first:
+      213: -1761580202008957035
+    second: GrayTankProjectile01
+  - first:
+      213: -9005171547013560436
+    second: GrayTankProjectile02
+  - first:
+      213: 6880220216242179115
+    second: Enemies-Tank_16
+  - first:
+      213: -2365974397644670786
+    second: Enemies-Tank_17
+  - first:
+      213: -9201921417667726717
+    second: Enemies-Tank_18
+  - first:
+      213: 99268942877641611
+    second: Enemies-Tank_19
+  - first:
+      213: 6445804800270887497
+    second: Enemies-Tank_20
+  - first:
+      213: -8762035456353430927
+    second: Enemies-Tank_21
+  - first:
+      213: -6393375280408086175
+    second: Enemies-Tank_22
+  - first:
+      213: 3694119331690828726
+    second: Enemies-Tank_23
+  - first:
+      213: -1186083131584945290
+    second: Enemies-Tank_24
+  - first:
+      213: 818966586588400639
+    second: Enemies-Tank_25
+  - first:
+      213: -7799906261662374171
+    second: Enemies-Tank_26
+  - first:
+      213: 2904762397195015980
+    second: Enemies-Tank_27
+  - first:
+      213: 4992795896766808121
+    second: Enemies-Tank_28
+  - first:
+      213: -1511017633902818657
+    second: Enemies-Tank_29
+  - first:
+      213: 3242311170781631368
+    second: Enemies-Tank_30
+  - first:
+      213: -6160510415476050939
+    second: Enemies-Tank_31
+  - first:
+      213: -7823726970497059469
+    second: Enemies-Tank_32
+  - first:
+      213: -2233946435741964281
+    second: Enemies-Tank_33
+  - first:
+      213: 6611761917263724547
+    second: Enemies-Tank_34
+  - first:
+      213: 3404354782767612152
+    second: Enemies-Tank_35
+  - first:
+      213: 5249283642993342882
+    second: Enemies-Tank_36
+  - first:
+      213: -7752974445653844378
+    second: Enemies-Tank_37
+  - first:
+      213: -2856738160253598674
+    second: Enemies-Tank_38
+  - first:
+      213: 6582792531549613998
+    second: Enemies-Tank_39
+  - first:
+      213: -5282020474625166266
+    second: Enemies-Tank_40
+  - first:
+      213: 6742568184587727902
+    second: Enemies-Tank_41
+  - first:
+      213: -844214907491624601
+    second: Enemies-Tank_42
+  - first:
+      213: -1476379507201190111
+    second: Enemies-Tank_43
+  - first:
+      213: 306374470231578204
+    second: Enemies-Tank_44
+  - first:
+      213: -1059600940712551547
+    second: Enemies-Tank_45
+  - first:
+      213: 1997496722020639376
+    second: Enemies-Tank_46
+  - first:
+      213: 417408763389305249
+    second: Enemies-Tank_47
+  - first:
+      213: -4591084583650036048
+    second: Enemies-Tank_48
+  - first:
+      213: -6503077717166254395
+    second: Enemies-Tank_49
+  - first:
+      213: -5900443456168767535
+    second: Enemies-Tank_50
+  - first:
+      213: -3267002453769287138
+    second: Enemies-Tank_51
+  - first:
+      213: 710031803804801985
+    second: Enemies-Tank_52
+  - first:
+      213: 1354593162392024088
+    second: Enemies-Tank_53
+  - first:
+      213: 951050532771897556
+    second: Enemies-Tank_54
+  - first:
+      213: 4050725901980084356
+    second: Enemies-Tank_55
+  - first:
+      213: 6837608565531836636
+    second: Enemies-Tank_56
+  - first:
+      213: -6427466580076985984
+    second: Enemies-Tank_57
+  - first:
+      213: 4893572119652029206
+    second: Enemies-Tank_58
+  - first:
+      213: -5413546025343730642
+    second: Enemies-Tank_59
+  - first:
+      213: 6926878783824510696
+    second: Enemies-Tank_60
+  - first:
+      213: -97519474351170805
+    second: Enemies-Tank_61
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GrayTankHead01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 355
+        width: 30
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f07534f74da25d0800000000000000
+      internalID: -3086420951553339628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayTankHead02
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 355
+        width: 28
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d507426b19426f960800000000000000
+      internalID: 7635330426497953885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayTankHead03
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 355
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bc3fbb434f2b070800000000000000
+      internalID: 8120821585431219005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayTankDeath03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 321
+        width: 32
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7e16ef5ec9aaa90800000000000000
+      internalID: -7301851334198564932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayTankDeath02
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 321
+        width: 33
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454d97a9beadded30800000000000000
+      internalID: 4462463511237874772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayTankDeath01
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 321
+        width: 34
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99091270aba06cec0800000000000000
+      internalID: -3547135862407851879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayTankDeath04
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 289
+        width: 32
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6880ecabb23d91230800000000000000
+      internalID: 3610148761085282438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayTankShoot01
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 289
+        width: 30
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce81933cc7aa9170800000000000000
+      internalID: 8186039768179642060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayTankShoot02
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 289
+        width: 31
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5d48586f6626bd0800000000000000
+      internalID: -2638433222697626130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayTankShoot03
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 289
+        width: 31
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f7edb32d82173d0800000000000000
+      internalID: -3210740175925772385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayTankTrackStuck
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 274
+        width: 31
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f904dd00262e904f0800000000000000
+      internalID: -861908943115566945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayTankTrack01
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 274
+        width: 30
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd178a4dc3d69b490800000000000000
+      internalID: -7730027177371471396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayTankTrack02
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 274
+        width: 30
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5b4850c03a40fd0800000000000000
+      internalID: -2376595431317260813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayTankTrack03
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 274
+        width: 30
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f003cbf8be8e8760800000000000000
+      internalID: 7462058557748478197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayTankProjectile01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 260
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f25e7b32c9d87e0800000000000000
+      internalID: -1761580202008957035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayTankProjectile02
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 260
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c874dce7034370380800000000000000
+      internalID: -9005171547013560436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 228
+        width: 30
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c839d65d37b7f50800000000000000
+      internalID: 6880220216242179115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 228
+        width: 28
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb878b022de5a2fd0800000000000000
+      internalID: -2365974397644670786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_18
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 228
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3823bd879353c4080800000000000000
+      internalID: -9201921417667726717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 194
+        width: 32
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b437dd39ca06100800000000000000
+      internalID: 99268942877641611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_20
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 194
+        width: 33
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a67a38059147950800000000000000
+      internalID: 6445804800270887497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 194
+        width: 34
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1721daafc2ff66680800000000000000
+      internalID: -8762035456353430927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 162
+        width: 32
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16933875e0b2647a0800000000000000
+      internalID: -6393375280408086175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_23
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 162
+        width: 30
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3d55bb5f5244330800000000000000
+      internalID: 3694119331690828726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_24
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 162
+        width: 31
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673ebcb0daf2a8fe0800000000000000
+      internalID: -1186083131584945290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_25
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 162
+        width: 31
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb048c75cd8d5b00800000000000000
+      internalID: 818966586588400639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 146
+        width: 31
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6e448a49a21c390800000000000000
+      internalID: -7799906261662374171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_27
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 146
+        width: 30
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2798b9920acf4820800000000000000
+      internalID: 2904762397195015980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_28
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 146
+        width: 30
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93040d64a69f94540800000000000000
+      internalID: 4992795896766808121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_29
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 146
+        width: 30
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a0fd9b779c70be0800000000000000
+      internalID: -1511017633902818657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 133
+        width: 15
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88358b1d4d00ffc20800000000000000
+      internalID: 3242311170781631368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_31
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 133
+        width: 16
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504b47aba68718aa0800000000000000
+      internalID: -6160510415476050939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 105
+        width: 30
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37531efa5c98c6390800000000000000
+      internalID: -7823726970497059469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_33
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 105
+        width: 28
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708a95a7d8d6ff0e0800000000000000
+      internalID: -2233946435741964281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_34
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 105
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300c5f1ee62b1cb50800000000000000
+      internalID: 6611761917263724547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 71
+        width: 32
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0044c43a2be3f20800000000000000
+      internalID: 3404354782767612152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_36
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 71
+        width: 33
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9f2e159a339d840800000000000000
+      internalID: 5249283642993342882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 71
+        width: 34
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e1f1691d6e76490800000000000000
+      internalID: -7752974445653844378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_38
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 39
+        width: 32
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2408c567c3da58d0800000000000000
+      internalID: -2856738160253598674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_39
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 39
+        width: 30
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafeb192ee6ca5b50800000000000000
+      internalID: 6582792531549613998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_40
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 39
+        width: 31
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64470a91d5e72b6b0800000000000000
+      internalID: -5282020474625166266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_41
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 39
+        width: 31
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14b33c4a0a629d50800000000000000
+      internalID: 6742568184587727902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 23
+        width: 31
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7695fd4b30fb844f0800000000000000
+      internalID: -844214907491624601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_43
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 23
+        width: 30
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1275b9f09a8d28be0800000000000000
+      internalID: -1476379507201190111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_44
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 23
+        width: 30
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56d66a15f5704400800000000000000
+      internalID: 306374470231578204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_45
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 23
+        width: 30
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b9825fe8a8b41f0800000000000000
+      internalID: -1059600940712551547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_46
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 10
+        width: 15
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0922c0c7fa888bb10800000000000000
+      internalID: 1997496722020639376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies-Tank_47
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 10
+        width: 16
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a164fb0f0feac500800000000000000
+      internalID: 417408763389305249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

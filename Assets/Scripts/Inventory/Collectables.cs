@@ -4,12 +4,6 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D), typeof(CircleCollider2D), typeof(BoxCollider2D))]
 public class Collectables : MonoBehaviour
 {
-    public enum CollectableType
-    {
-        PowerUp,
-        Diamond,
-        Cross
-    }
     public CollectableType type;
 
     public event Action OnPickUp;

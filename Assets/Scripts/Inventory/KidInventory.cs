@@ -13,6 +13,7 @@ public class KidInventory : MonoBehaviour
     private void Awake()
     {
         _powerUp = GetComponent<KidPowerUps>();
+        
 
         // TEMP
         _kidJump = GetComponent<KidJump>();
@@ -20,16 +21,16 @@ public class KidInventory : MonoBehaviour
 
     public void Pickup(Collectables item)
     {
-        if (item.type == Collectables.CollectableType.Diamond)
+        if (item.type == CollectableType.Diamond)
         {
             _diamonds++;
             Debug.Log($"You have {_diamonds} diamonds total!");
         }
-        else if (item.type == Collectables.CollectableType.PowerUp)
+        else if (item.type == CollectableType.PowerUp)
         {
             _powerUp.Henshin();
         }
-        else if (item.type == Collectables.CollectableType.Cross)
+        else if (item.type == CollectableType.Cross)
         {
             Debug.Log("You now have a new jump force!");
             StartCoroutine(NewJumpForce());

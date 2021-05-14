@@ -4,7 +4,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D), typeof(CircleCollider2D), typeof(BoxCollider2D))]
 public class Collectables : MonoBehaviour
 {
-    public CollectableType type;
+    public CollectableType collectableTypes;
+    public PowerUPs PowerUp;
 
     public event Action OnPickUp;
 

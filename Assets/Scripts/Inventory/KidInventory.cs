@@ -21,16 +21,17 @@ public class KidInventory : MonoBehaviour
 
     public void Pickup(Collectables item)
     {
-        if (item.type == CollectableType.Diamond)
+
+        if (item.collectableTypes == CollectableType.Diamond)
         {
             _diamonds++;
             Debug.Log($"You have {_diamonds} diamonds total!");
         }
-        else if (item.type == CollectableType.PowerUp)
+        else if (item.collectableTypes == CollectableType.PowerUp)
         {
-            _powerUp.Henshin();
+            _powerUp.Henshin(item, _diamonds);
         }
-        else if (item.type == CollectableType.Cross)
+        else if (item.collectableTypes == CollectableType.Cross)
         {
             Debug.Log("You now have a new jump force!");
             StartCoroutine(NewJumpForce());

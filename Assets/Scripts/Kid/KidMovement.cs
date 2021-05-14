@@ -13,6 +13,7 @@ public class KidMovement : MonoBehaviour
     private KidAbility _kidAbility;
 
     private float _moveInput;
+    private bool _canMove = true;
 
     private void Awake()
     {
@@ -43,15 +44,19 @@ public class KidMovement : MonoBehaviour
 
     private void Movements()
     {
-        _rigidbody2D.velocity = new Vector2(_moveInput * _walkSpeed * Time.fixedDeltaTime, _rigidbody2D.velocity.y);
+        if (_canMove)
+        {
+            _rigidbody2D.velocity = new Vector2(_moveInput * _walkSpeed * Time.fixedDeltaTime, _rigidbody2D.velocity.y);
 
-        // Walk ANIMATION
-        _animator.SetFloat("isRunning", Mathf.Abs(Input.GetAxisRaw("Horizontal")));
+            // Walk ANIMATION
+            _animator.SetFloat("isRunning", Mathf.Abs(Input.GetAxisRaw("Horizontal")));
 
         
-        if (_spriteRenderer.flipX && _moveInput > 0 || !_spriteRenderer.flipX && _moveInput < 0)
-        {
-            _spriteRenderer.flipX = !_spriteRenderer.flipX;
+            if (_spriteRenderer.flipX && _moveInput > 0 || !_spriteRenderer.flipX && _moveInput < 0)
+            {
+                _spriteRenderer.flipX = !_spriteRenderer.flipX;
+                Debug.Log(Mathf.Abs(_moveInput));
+            }
         }
     }
 
@@ -66,5 +71,16 @@ public class KidMovement : MonoBehaviour
     {
         Debug.Log("The KID is ROLLING!!!");
         _rigidbody2D.AddForce(new Vector2(_moveInput * _rollSpeed * Time.fixedDeltaTime, _rigidbody2D.velocity.y), ForceMode2D.Impulse);
+    }
+
+    // Animation Event
+    public void CanMove()
+    {
+        _canMove = true;
+    }  
+    public void CannotMove()
+    {
+        _rigidbody2D.velocity = Vector2.zero;
+        _canMove = false;
     }
 }

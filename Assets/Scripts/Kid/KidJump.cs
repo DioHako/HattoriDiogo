@@ -29,10 +29,6 @@ public class KidJump : MonoBehaviour
         JumpAction();
     }
 
-    private void FixedUpdate()
-    {
-    }
-
     private void JumpAction()
     {
         if (_canJump)

@@ -22,7 +22,6 @@ public class KidPowerUps : MonoBehaviour
                 Debug.Log(" HENSHIN ===> IRON KNIGHT!");
                 _animator.SetTrigger("IronKnightIN");
                 _animator.SetLayerWeight(1, 1);
-                Debug.Log(_animator.runtimeAnimatorController);
                 break;
         }
         // if (powerups is NOT on)

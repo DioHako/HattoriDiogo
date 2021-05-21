@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 2599360451976754456}
   - component: {fileID: 2599360451976754458}
   - component: {fileID: 2599360451976754461}
+  - component: {fileID: 2702289106267148154}
   - component: {fileID: 2599360451976754459}
   m_Layer: 8
   m_Name: Green Dragon
@@ -200,6 +201,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.4476223}
   m_EdgeRadius: 0
+--- !u!114 &2702289106267148154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2599360451976754462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa64bbae4fbf31440b112949bef4cf26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: 1
+  _playerBounce: 8
 --- !u!114 &2599360451976754459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,11 +227,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6da58dd4a588f3c43a87a96a3950a43b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Stationery: 0
   _walkSpeed: 1.5
-  _hitCount: 1
-  _playerBounce: 8.5
+  _fireRate: 0
+  _damage: 0
+  _projectilePrefab: {fileID: 0}
+  _spawnPoint: {fileID: 0}
   _checkDistance: 1
   _rayCastOffset: {x: 0, y: 0.45}
   _checkWalls:
     serializedVersion: 2
     m_Bits: 20480
+  _detectionRadius: 0
+  _detectionLayer:
+    serializedVersion: 2
+    m_Bits: 0

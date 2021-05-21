@@ -3,33 +3,27 @@ using UnityEngine;
 
 public class KidAbility : MonoBehaviour
 {
-    public PowerUPs _powerUps;
-
     public event Action OnRolling;
-    
+
     [Header("Abilities")]
     [SerializeField] private float _rubberJumpForce;
     [SerializeField] private Vector3 _groundCheckOffset;
     [SerializeField] private float _checkLength;
     [SerializeField] private LayerMask _isRubberBlock;
 
+    public PowerUPs _powerUps;
+
     private Animator _animator;
     private KidJump _kidJump;
 
     private RaycastHit2D _rubberBlock;
     private Rigidbody2D _rigidbody2D;
-    private Animator _rubberBlockAnim;
 
     private void Awake()
     {
         _animator = GetComponent<Animator>();
         _kidJump = GetComponent<KidJump>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
-    }
-
-    private void Start()
-    {
-        
     }
 
     private void Update()
@@ -42,7 +36,6 @@ public class KidAbility : MonoBehaviour
         {
             _rubberBlock.collider.GetComponent<Animator>().SetTrigger("isTouched");
             Vector2 forceToAdd = new Vector2(0, _rubberJumpForce);
-            //_rigidbody2D.AddForce(forceToAdd, ForceMode2D.Impulse);
             _rigidbody2D.velocity += forceToAdd;
         }
     }
@@ -56,11 +49,9 @@ public class KidAbility : MonoBehaviour
         }
     }
 
-
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.blue;
         Gizmos.DrawLine(transform.position + _groundCheckOffset, transform.position + _groundCheckOffset + Vector3.right * _checkLength);
-
     }
 }

@@ -5,6 +5,7 @@ public class Fireball : MonoBehaviour
 {
     public float fireballSpeed;
     public float lifetime;
+    public int Damage = 1;
 
     void Start()
     {
@@ -17,12 +18,19 @@ public class Fireball : MonoBehaviour
         Destroy(gameObject, lifetime);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Enemy")
         {
             Destroy(gameObject);
             collision.gameObject.SetActive(false);
+        }
+
+        var kidStatus = collision.GetComponent<KidStatus>();
+        if (kidStatus != null)
+        {
+            Destroy(gameObject);
+            kidStatus.GetHit(Damage);
         }
     }
 }

@@ -24,8 +24,7 @@ public class KidInventory : MonoBehaviour
 
         if (item.collectableTypes == CollectableType.Diamond)
         {
-            _diamonds++;
-            Debug.Log($"You have {_diamonds} diamonds total!");
+            GameManager.Instance.Diamond++;
         }
         else if (item.collectableTypes == CollectableType.PowerUp)
         {
@@ -38,6 +37,8 @@ public class KidInventory : MonoBehaviour
         }
     }
 
+
+    // TEMP
     private IEnumerator NewJumpForce()
     {
         _kidJump.SetJumpForce(7f);

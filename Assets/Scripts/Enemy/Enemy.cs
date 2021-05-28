@@ -35,7 +35,7 @@ public class Enemy : MonoBehaviour
     private float _direction = -1;
     private float _changeDirectionEase = 1;
 
-    private RaycastHit2D isDetected;
+    private RaycastHit2D isPlayerDetected;
 
     private void Awake()
     {
@@ -64,7 +64,7 @@ public class Enemy : MonoBehaviour
         {
             _animator.SetBool("isStationery", true);
             _rigidbody2D.velocity = Vector2.zero;
-            if (_fireRateCounter <= 0 && isDetected)
+            if (_fireRateCounter <= 0 && isPlayerDetected)
             {
                 _animator.SetTrigger("isShooting");
                 _fireRateCounter = _fireRate;
@@ -80,11 +80,11 @@ public class Enemy : MonoBehaviour
 
     private void PlayerDetection()
     {
-        isDetected = Physics2D.CircleCast(transform.position, _detectionRadius, Vector2.zero, _detectionRadius, _detectionLayer);
+        isPlayerDetected = Physics2D.CircleCast(transform.position, _detectionRadius, Vector2.zero, _detectionRadius, _detectionLayer);
 
-        if (isDetected)
+        if (isPlayerDetected)
         {
-            characterDistance = isDetected.collider.gameObject.transform.position.x - transform.position.x;
+            characterDistance = isPlayerDetected.collider.gameObject.transform.position.x - transform.position.x;
 
             if (characterDistance < 0)
             {

@@ -20,10 +20,4 @@ public class Collectables : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
-
-    //private void OnValidate()
-    //{
-    //    var collider = GetComponent<CircleCollider2D>();
-    //    collider.isTrigger = true;
-    //}
 }

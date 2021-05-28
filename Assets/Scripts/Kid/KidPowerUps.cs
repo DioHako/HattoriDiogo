@@ -2,9 +2,7 @@ using UnityEngine;
 
 public class KidPowerUps : MonoBehaviour
 {
-
     private Animator _animator;
-    
 
     private void Awake()
     {

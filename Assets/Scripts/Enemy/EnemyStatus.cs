@@ -1,8 +1,9 @@
 using System;
 using UnityEngine;
 
-public class EnemyStatus : CharacterStatus
+public class EnemyStatus : MonoBehaviour
 {
+    [SerializeField] private int _health;
     [SerializeField] private float _playerBounce;
 
     public event Action CannotMove; 
@@ -40,10 +41,22 @@ public class EnemyStatus : CharacterStatus
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        var kidStatus = collision.gameObject.GetComponent<KidStatus>();
+        var kidStatus = collision.gameObject.GetComponent<KidMovement>();
         if (kidStatus != null)
         {
-            kidStatus.GetHit(1);
+            GameManager.Instance.Lives--;
+        }
+    }
+
+    public void GetHit(int damage)
+    {
+        if (_health > 1)
+        {
+            _health -= damage;
+        }
+        else if (_health <= 1)
+        {
+            Destroy(gameObject);
         }
     }
 

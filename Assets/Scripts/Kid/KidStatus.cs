@@ -11,20 +11,22 @@ public class KidStatus : MonoBehaviour
 
     public void GetHit(int damage)
     {
-        if (GameManager.Instance.Lives > 1)
+        if ( GameManager.Instance.Lives >= 1 )
         {
             GameManager.Instance.Lives -= damage;
+            GameManager.Instance.UpdateHealthUI(GameManager.Instance.Lives);
             _animator.SetTrigger("isHit");
         }
-        else if (GameManager.Instance.Lives <= 1)
+        if ( GameManager.Instance.Lives <= 0 )
         {
             _animator.SetTrigger("Death");
         }
     }
 
-    // Animation Events
+    // Animation Event linked to Death animation
     public void LoadGameOver()
     {
+        GameManager.Instance.ResetHealthUI(false);
         GameManager.Instance.LoadScene("GameOver");
     }
 }

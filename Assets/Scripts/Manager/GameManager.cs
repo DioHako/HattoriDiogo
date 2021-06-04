@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,6 +10,8 @@ public class GameManager : MonoBehaviour
         get { return _instance; }
         set { _instance = value; }
     }
+
+    [SerializeField] Image[] _healthUI;
 
     [SerializeField] private int _maxLives;
     private int _lives;
@@ -69,26 +69,39 @@ public class GameManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(this);
         }
-        _lives = _maxLives;
     }
 
     private void Update()
     {
-        
-
-        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("GameOver"))
+        if (SceneManager.GetActiveScene().name == "GameOver")
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {
+                MenuManager.Instance.OpenMenu(0);
                 SceneManager.LoadScene("MainMenu");
             }
         }
-        else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("MainMenu"))
+    }
+
+    public void ResetHealthUI(bool OnOff)
+    {
+        foreach ( var coinSprite in _healthUI )
         {
-            if (Input.GetKeyDown(KeyCode.P))
+            coinSprite.gameObject.SetActive(OnOff);
+        }
+    }
+
+    public void UpdateHealthUI(int currentHealth)
+    {
+        for ( int i = 0 ; i < _healthUI.Length ; i++ )
+        {
+            if ( i < currentHealth )
             {
-                SceneManager.LoadScene(1);
-                _lives = _maxLives;
+                _healthUI[i].gameObject.SetActive(true);
+            }
+            else
+            {
+                _healthUI[i].gameObject.SetActive(false);
             }
         }
     }
@@ -96,5 +109,12 @@ public class GameManager : MonoBehaviour
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+        if( sceneName == "Level01_BlueLakeWoods1" )
+        {
+            ResetHealthUI(true);
+            SceneManager.LoadScene(1);
+            _lives = _maxLives;
+            UpdateHealthUI(_lives);
+        }
     }
 }

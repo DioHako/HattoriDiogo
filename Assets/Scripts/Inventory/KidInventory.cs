@@ -3,8 +3,12 @@ using UnityEngine;
 
 public class KidInventory : MonoBehaviour
 {
+    [SerializeField] AudioClip _clip;
+
     private int _diamonds;
     private KidPowerUps _powerUp;
+    private AudioSource _audioSource;
+
 
     // TEMP
     private KidJump _kidJump;
@@ -13,6 +17,7 @@ public class KidInventory : MonoBehaviour
     private void Awake()
     {
         _powerUp = GetComponent<KidPowerUps>();
+        _audioSource = GetComponent<AudioSource>();
         
 
         // TEMP
@@ -24,6 +29,7 @@ public class KidInventory : MonoBehaviour
 
         if (item.collectableTypes == CollectableType.Diamond)
         {
+            _audioSource.PlayOneShot(_clip);
             GameManager.Instance.Diamond++;
         }
         else if (item.collectableTypes == CollectableType.PowerUp)
@@ -32,6 +38,8 @@ public class KidInventory : MonoBehaviour
         }
         else if (item.collectableTypes == CollectableType.Cross)
         {
+            _audioSource.PlayOneShot(_clip);
+            GameManager.Instance.Cross++;
             Debug.Log("You now have a new jump force!");
             StartCoroutine(NewJumpForce());
         }

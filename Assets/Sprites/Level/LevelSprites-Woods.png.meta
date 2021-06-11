@@ -730,7 +730,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LevelSprites-Woods_36
+      name: HandleVolume
       rect:
         serializedVersion: 2
         x: 55

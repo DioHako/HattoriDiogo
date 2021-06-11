@@ -29,6 +29,8 @@ public class MainMenu : MonoBehaviour
     private void OnStartPressed()
     {
         MenuManager.Instance.CloseAllMenus();
+        AudioManager.Instance.StopMusic();
+        AudioManager.Instance.Play(1);
         GameManager.Instance.LoadScene("Level01_BlueLakeWoods1");
     }
 

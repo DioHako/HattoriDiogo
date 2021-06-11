@@ -76,7 +76,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1825406245209076547
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -115,6 +115,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 403aca5ec8d617c478340bbb8721328b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BoxType: 1
+  _clip:
+  - {fileID: 8300000, guid: cd64a2eff6b7c3e4388daee2b9f2384e, type: 3}
+  - {fileID: 8300000, guid: b752343890e588f4abf5f100e3521f45, type: 3}
 --- !u!1 &1825406245797586562
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,6 +410,14 @@ PrefabInstance:
     - target: {fileID: 538524364299375789, guid: 48da78ac2b5ed98468ba6ba355b8d4d5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390683517554512247, guid: 48da78ac2b5ed98468ba6ba355b8d4d5, type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390683517554512247, guid: 48da78ac2b5ed98468ba6ba355b8d4d5, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48da78ac2b5ed98468ba6ba355b8d4d5, type: 3}

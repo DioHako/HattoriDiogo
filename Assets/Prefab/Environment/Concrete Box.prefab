@@ -4953,9 +4953,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 538524364299375789}
+  - component: {fileID: 538524364299375790}
   - component: {fileID: 538524364299375788}
   - component: {fileID: 538524364299375791}
-  - component: {fileID: 538524364299375790}
   - component: {fileID: 538524364299375778}
   m_Layer: 11
   m_Name: Concrete Box
@@ -4980,6 +4980,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &538524364299375790
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538524364299375785}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b6c0c9daf342b1047a5cfd455bcf02c7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!50 &538524364299375788
 Rigidbody2D:
   serializedVersion: 4
@@ -5027,25 +5046,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.4}
   m_EdgeRadius: 0
---- !u!95 &538524364299375790
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 538524364299375785}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b6c0c9daf342b1047a5cfd455bcf02c7, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &538524364299375778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5058,3 +5058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 403aca5ec8d617c478340bbb8721328b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BoxType: 0
+  _clip:
+  - {fileID: 8300000, guid: cd64a2eff6b7c3e4388daee2b9f2384e, type: 3}
+  - {fileID: 8300000, guid: b752343890e588f4abf5f100e3521f45, type: 3}

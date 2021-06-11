@@ -2,11 +2,15 @@ using UnityEngine;
 
 public class KidPowerUps : MonoBehaviour
 {
+    [SerializeField] AudioClip _henshin;
+
     private Animator _animator;
+    private AudioSource _audioSource;
 
     private void Awake()
     {
         _animator = GetComponent<Animator>();
+        _audioSource = GetComponent<AudioSource>();
     }
 
     public void Henshin(Collectables powerups, int diamonds)
@@ -18,6 +22,7 @@ public class KidPowerUps : MonoBehaviour
                 break;
             case PowerUPs.IronKnight:
                 Debug.Log(" HENSHIN ===> IRON KNIGHT!");
+                _audioSource.PlayOneShot(_henshin);
                 _animator.SetTrigger("IronKnightIN");
                 _animator.SetLayerWeight(1, 1);
                 break;

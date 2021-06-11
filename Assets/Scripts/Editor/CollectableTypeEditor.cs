@@ -9,6 +9,7 @@ public class CollectableTypeEditor : Editor
         EditorGUILayout.PropertyField(type);
         
         EditorGUILayout.Space();
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("_clip"));
 
         switch (type.enumValueIndex)
         {

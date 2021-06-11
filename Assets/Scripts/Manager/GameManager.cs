@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class GameManager : MonoBehaviour
         set { _instance = value; }
     }
 
+    [SerializeField] GameObject _HUD;
     [SerializeField] Image[] _healthUI;
 
     [SerializeField] private int _maxLives;
@@ -37,6 +39,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    [SerializeField] TextMeshProUGUI _crossesTMP;
     private int _crosses;
     public int Cross
     {
@@ -44,9 +47,11 @@ public class GameManager : MonoBehaviour
         set
         {
             _crosses = value;
+            _crossesTMP.text = _crosses.ToString();
         }
     }
 
+    [SerializeField] TextMeshProUGUI _diamondTMP;
     private int _diamonds;
     public int Diamond
     {
@@ -55,6 +60,7 @@ public class GameManager : MonoBehaviour
         {
             _diamonds = value;
             Debug.Log($"You have {_diamonds} diamonds total!");
+            _diamondTMP.text = _diamonds.ToString();
         }
     }
 
@@ -69,14 +75,19 @@ public class GameManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(this);
         }
+        _lives = _maxLives;
+        _HUD.SetActive(false);
     }
 
     private void Update()
     {
         if (SceneManager.GetActiveScene().name == "GameOver")
         {
+            _HUD.SetActive(false);
             if (Input.GetKeyDown(KeyCode.Escape))
             {
+                AudioManager.Instance.StopMusic();
+                AudioManager.Instance.Play(0);
                 MenuManager.Instance.OpenMenu(0);
                 SceneManager.LoadScene("MainMenu");
             }
@@ -113,6 +124,7 @@ public class GameManager : MonoBehaviour
         {
             ResetHealthUI(true);
             SceneManager.LoadScene(1);
+            _HUD.SetActive(true);
             _lives = _maxLives;
             UpdateHealthUI(_lives);
         }

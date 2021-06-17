@@ -16,28 +16,15 @@ public class KidAbility : MonoBehaviour
     private Animator _animator;
     private KidJump _kidJump;
 
-    private RaycastHit2D _rubberBlock;
-    private Rigidbody2D _rigidbody2D;
-
     private void Awake()
     {
         _animator = GetComponent<Animator>();
         _kidJump = GetComponent<KidJump>();
-        _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
     {
         RollAbility();
-
-        _rubberBlock = Physics2D.Raycast(transform.position + _groundCheckOffset, Vector2.right, _checkLength, _isRubberBlock);
-
-        if (_rubberBlock)
-        {
-            _rubberBlock.collider.GetComponent<Animator>().SetTrigger("isTouched");
-            Vector2 forceToAdd = new Vector2(0, _rubberJumpForce);
-            _rigidbody2D.velocity += forceToAdd;
-        }
     }
 
     private void RollAbility()

@@ -1,50 +1,50 @@
-using System;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class EnemyStatus : MonoBehaviour
 {
     [SerializeField] private int _health;
     [SerializeField] private float _playerBounce;
-
-    public event Action CannotMove; 
+    [SerializeField] private AudioClip[] _hitSound;
 
     private Animator _animator;
-
-    public bool CanMove { get; private set; }
-    
+    private Enemy _enemy;
+    private AudioSource _audioSource;
 
     private void Awake()
     {
         _animator = GetComponent<Animator>();
-    }
-
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
-        var kidjump = collision.GetComponent<KidJump>();
-        if (kidjump != null)
-        {
-            var jump = kidjump.GetComponent<Rigidbody2D>();
-            Vector2 forceToAdd = new Vector2(0, _playerBounce);
-            jump.velocity += forceToAdd;
-
-            if (_health > 1)
-            {
-                _health--;
-            }
-            else if (_health <= 1)
-            {
-                _animator.SetTrigger("Death");
-                CannotMove?.Invoke();
-            }
-        }
+        _enemy = GetComponent<Enemy>();
+        _audioSource = GetComponent<AudioSource>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        var kidStatus = collision.gameObject.GetComponent<KidMovement>();
+        var kidStatus = collision.gameObject.GetComponent<KidStatus>();
         if (kidStatus != null)
         {
-            GameManager.Instance.Lives--;
+            var jump = kidStatus.GetComponent<Rigidbody2D>();
+            var normal = collision.contacts[0].normal;
+            if ( normal.y < 0 )
+            {
+                var randomClip = Random.Range(0, _hitSound.Length);
+                jump.velocity += Vector2.up * _playerBounce;
+                if ( _health > 1 )
+                {
+                    _audioSource.PlayOneShot(_hitSound[randomClip]);
+                    _health--;
+                }
+                else if ( _health <= 1 )
+                {
+                    _audioSource.PlayOneShot(_hitSound[randomClip]);
+                    _animator.SetTrigger("Death");
+                    _enemy.SetWalkSpeed(0);
+                }
+            }
+            else
+            {
+                kidStatus.GetHit(1);
+            }
         }
     }
 
@@ -60,7 +60,7 @@ public class EnemyStatus : MonoBehaviour
         }
     }
 
-    // Event Animations
+    // Animation Events
     public void SetActiveFalse()
     {
         gameObject.SetActive(false);

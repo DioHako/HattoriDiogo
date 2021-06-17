@@ -27,7 +27,6 @@ public class Enemy : MonoBehaviour
 
     private Rigidbody2D _rigidbody2D;
     private Animator _animator;
-    private EnemyStatus _enemyStatus;
 
     private float _fireRateCounter;
 
@@ -41,20 +40,9 @@ public class Enemy : MonoBehaviour
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
-        _enemyStatus = GetComponent<EnemyStatus>();
 
         _fireRateCounter = _fireRate;
     }
-
-    private void OnEnable()
-    {
-        _enemyStatus.CannotMove += CannotMove;
-    }
-    private void OnDisable()
-    {
-        _enemyStatus.CannotMove -= CannotMove;
-    }
-
 
     private void Update()
     {
@@ -63,6 +51,8 @@ public class Enemy : MonoBehaviour
         if (Stationery)
         {
             _animator.SetBool("isStationery", true);
+
+            _rigidbody2D.isKinematic = true;
             _rigidbody2D.velocity = Vector2.zero;
             if (_fireRateCounter <= 0 && isPlayerDetected)
             {
@@ -147,19 +137,10 @@ public class Enemy : MonoBehaviour
             _direction = -1;
         }
     }
-
-    private void OnDrawGizmos()
+    
+    public void SetWalkSpeed(float walkSpeed)
     {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawLine(new Vector2(transform.position.x, transform.position.y + _rayCastOffset.y), new Vector2(transform.position.x, transform.position.y + _rayCastOffset.y) + Vector2.left * _checkDistance);
-        Gizmos.DrawLine(new Vector2(transform.position.x, transform.position.y + _rayCastOffset.y), new Vector2(transform.position.x, transform.position.y + _rayCastOffset.y) + Vector2.right * _checkDistance);
-        Gizmos.color = Color.blue;
-        Gizmos.DrawWireSphere(transform.position, _detectionRadius);
-    }
-
-    private void CannotMove()
-    {
-        _walkSpeed = 0;
+        _walkSpeed = walkSpeed;
     }
 
     public void Shooting()
@@ -178,6 +159,14 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawLine(new Vector2(transform.position.x, transform.position.y + _rayCastOffset.y), new Vector2(transform.position.x, transform.position.y + _rayCastOffset.y) + Vector2.left * _checkDistance);
+        Gizmos.DrawLine(new Vector2(transform.position.x, transform.position.y + _rayCastOffset.y), new Vector2(transform.position.x, transform.position.y + _rayCastOffset.y) + Vector2.right * _checkDistance);
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(transform.position, _detectionRadius);
+    }
 }
 
 

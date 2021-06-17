@@ -476,7 +476,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a20e92b85f6bdc49960997392f80d30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ReturnButton: {fileID: 2597856623651482174}
+  _returnButton: {fileID: 2597856623651482174}
+  _muteToggle: {fileID: 2597856623389292709}
+  _masterVolumeSlider: {fileID: 2597856624160176336}
+  _masterAudioMixer: {fileID: 24300002, guid: 0ab11a3df0e74d24cbb8dda8a57f9f48, type: 2}
+  _musicVolumeSlider: {fileID: 0}
+  _musicAudioMixer: {fileID: 0}
+  _sfxVolumeSlider: {fileID: 0}
+  _sfxAudioMixer: {fileID: 0}
+  _SFXTest: {fileID: 0}
 --- !u!1 &2597856623337378000
 GameObject:
   m_ObjectHideFlags: 0
